@@ -39,6 +39,6 @@ mvn test
 ### Example
 * you will see initial send and receive message as simple message with rabbit mq:
 <pre>Sending message...
-Received <Hello from RabbitMQ!></pre>
+Received Hello from RabbitMQ!</pre>
 * save your book in PUT /book (it's idempoten, just put null as "id")
 * get your book with id and async GET /book/async/{id}
